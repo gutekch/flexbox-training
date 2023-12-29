@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100%;
+    background-color: aqua;
+}
+ .main-container{
+    display: flex;
+    background-color: bisque;
+    margin-top: 250px;
+    align-items: stretch;
+    justify-content: space-around;
+ }
+
+ .containers{
+    width: 200px;
+    margin:10px;
+    border: 2px solid black;
+    background-color: rgb(234, 26, 22);
+    
+    
+ }
+
+ .first-container{
+    min-height: 100px;
+ }
+
+ .second-container{
+    min-height: 200px;
+ }
+
+ .third-container{
+    min-height: 300px;
+ }
